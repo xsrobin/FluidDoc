@@ -38,6 +38,7 @@ fluid.layers
     layers/brelu.rst
     layers/cast.rst
     layers/ceil.rst
+    layers/center_loss.rst
     layers/chunk_eval.rst
     layers/clip.rst
     layers/clip_by_norm.rst
@@ -138,6 +139,7 @@ fluid.layers
     layers/linear_lr_warmup.rst
     layers/linspace.rst
     layers/load.rst
+    layers/lod_append.rst
     layers/lod_reset.rst
     layers/log.rst
     layers/log_loss.rst
@@ -162,10 +164,12 @@ fluid.layers
     layers/natural_exp_decay.rst
     layers/nce.rst
     layers/noam_decay.rst
+    layers/Normal.rst
     layers/not_equal.rst
     layers/npair_loss.rst
     layers/one_hot.rst
     layers/ones.rst
+    layers/ones_like.rst
     layers/open_files.rst
     layers/pad.rst
     layers/pad2d.rst
@@ -236,6 +240,7 @@ fluid.layers
     layers/sequence_softmax.rst
     layers/sequence_unpad.rst
     layers/shape.rst
+    layers/shard_index.rst
     layers/shuffle.rst
     layers/shuffle_channel.rst
     layers/sigmoid.rst
@@ -244,6 +249,7 @@ fluid.layers
     layers/sign.rst
     layers/similarity_focus.rst
     layers/sin.rst
+    layers/size.rst
     layers/slice.rst
     layers/smooth_l1.rst
     layers/soft_relu.rst
@@ -277,8 +283,12 @@ fluid.layers
     layers/topk.rst
     layers/transpose.rst
     layers/tree_conv.rst
+    layers/unfold.rst
+    layers/Uniform.rst
     layers/uniform_random.rst
     layers/uniform_random_batch_size_like.rst
+    layers/unique.rst
+    layers/unique_with_counts.rst
     layers/unsqueeze.rst
     layers/unstack.rst
     layers/warpctc.rst
